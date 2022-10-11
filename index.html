@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>123</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo_jFg_icon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bgBtn.css" />
+    <!-- 제이쿼리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="of-auto">
+            <div class="bg_btn">
+                <div class="bg_text"></div>
+                <div class="bg_btn1" id="light-mode"></div>
+                <div class="bg_btn2" id="pink-mode"></div>
+                <div class="bg_btn3" id="green-mode"></div>
+                <div class="bg_btn4" id="purple-mode"></div>
+            </div>
+            <div id="menu_empty_space"></div>
+            <nav id="lnb">
+                <ul id="menu">
+                    <li><a href="#main">Main</a></li>
+                    <li><a href="#about_me">About me</a></li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                        <ul id="sub">
+                            <li><a href="#portfolio_1">Front-end Develop</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="hamburger" type="button">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+        </div>
+
+        <div id="menuback"></div>
+        <nav id="mlnb">
+            <ul id="mmenu">
+                <li><a href="#main">Main</a></li>
+                <li><a href="#about_me">About me</a></li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                    <ul id="msub">
+                        <li><a href="#portfolio_1">Mini-project1</a></li>
+                        <li><a href="#portfolio_2">Mini-project2</a></li>
+                        <li><a href="#portfolio_3">Mini-project3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="mback"></div>
+    </header>
+
+
+    <section id="main">
+        <div class="cen">
+
+            <div id="mv_img">
+                <img src="images/main_object1.png" alt="메인비주얼요소">
+                <img src="images/main_object2.png" alt="메인비주얼요소">
+                <img src="images/main_object3.png" alt="메인비주얼요소">
+                <img src="images/main_object4.png" alt="메인비주얼요소">
+                <img src="images/main_line1.png" alt="메인비주얼요소">
+                <img src="images/main_line2.png" alt="메인비주얼요소">
+                <img src="images/main_ring1.png" alt="메인비주얼요소">
+                <img src="images/main_ring2.png" alt="메인비주얼요소">
+            </div>
+            <img id="mobile_mv" src="images/main_visual.png" alt="모바일 메인비쥬얼요소">
+
+            <div id="mv_txt">
+                <h2>F R O N T - E N D </h2>
+                <p id="mv_txt2">Lee Jungwoo</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="about_me">
+        <img src="images/background_object1.png" alt="배경 장식요소">
+        <img src="images/background_object2.png" alt="배경 장식요소">
+
+        <div class="cen of-auto">
+            <div class="title">
+                <img src="images/main_object2.png" alt="섹션명 장식요소">
+                <h3>About me</h3>
+            </div>
+
+            <p class="of-auto">
+                <span>“안녕하세요!!</span><br />
+                 프론트엔드 개발자의 첫걸음!!<br />
+                <span>이정우 입니다.</span>
+            </p>
+
+            <div id="profile" class="of-auto">
+                <div id="profile_pic">
+                    <img src="images/profile.png" alt="프로필사진">
+                </div>
+
+                <div id="profile_txt">
+                    <p>
+                        컴퓨터언어를 사용해 시각적 아름다움을 <br class="mobilebr" />자아내는 것에 큰 매력을 느껴<br class="mobilebr" /><span></span>
+                        웹디자인을 겸비한 웹개발자가 <br class="mobilebr" />되기로 결심했습니다.<br /><br class="mobilebr" />
+                        나아가 개발자로서의 역량을 <br class="mobilebr" />끊임없이 연마해<span></span> 비단 웹뿐만 아니라
+                        <br class="mobilebr" />다양한 영역에서 창의적이고 <br class="mobilebr" />신선한 콘텐츠를 구현해내는
+                        <br class="mobilebr" /><span></span> 깨어있는 개발자로 <br class="mobilebr" />성장해나가고 싶습니다.
+                    </p>
+                    <div id="sns">
+                        <div>
+                            <a href="https://github.com/jungwoo941219/Project1" target="_blank">
+                                <img src="images/github.png" alt="깃허브">
+                                <span>Git hub</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="" id="licenses">
+                        <p>Licenses</p>
+                        <p>ATC 2급</p>
+                        <p>ITQ 한글,엑셀,파워포인트</p>
+                        <p>운전면허1종</p>
+                    </div>
+                    <div class="" id="skills">
+                        <p>Skills</p>
+                        <div class="skill_cont">
+                            <p>Languages</p>
+                            <p>HTML, CSS, JAVASCRIPT, JAVA, MYSQL</p>
+                        </div>
+                        <div class="skill_cont">
+                            <p>O/A</p>
+                            <p>아래한글, MS Word, PowerPoint, Excel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <img src="images/background_object3.png" alt="배경 장식요소">
+        <img src="images/background_object4.png" alt="배경 장식요소">
+
+        <div class="cen">
+            <div class="title">
+                <img src="images/main_object3.png" alt="섹션명 장식요소">
+                <h3>Portfoio</h3>
+            </div>
+
+            <div id="portfolio_1" class="sub_title">
+                <img class="h4_img" src="images/content_object1.png" alt="챕터 장식요소">
+                <h4>Mini-Project</h4>
+            </div>
+            <div class="sub_cont">
+                <div class="slider" id="slider1">
+                    <div class="train" id="t1">
+                        <div class="slide s1">
+                            <div class="sbox">
+                                <a href="#">
+                                    <img src="images/pic1.jpeg">
+                                    <div>
+                                        <p class="stitle">내용 없음</p>
+                                        <p class="scont">
+                                            프로젝트<br />
+                                            준비 중입니다.<br />
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slide s1">
+                            <div class="sbox">
+                                <a href="#">
+                                    <img src="images/pic1.jpeg">
+                                    <div>
+                                        <p class="stitle">내용 없음</p>
+                                        <p class="scont">
+                                            프로젝트<br />
+                                            준비 중입니다.<br />
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slide s1">
+                            <div class="sbox">
+                                <a href="#">
+                                    <img src="images/pic1.jpeg">
+                                    <div>
+                                        <p class="stitle">내용 없음</p>
+                                        <p class="scont">
+                                            프로젝트<br />
+                                            준비 중입니다.<br />
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="sbtn" id="prev1" type="button"><img src="images/btn_prev1.png" alt="이전버튼"></button>
+                <button class="sbtn" id="next1" type="button"><img src="images/btn_next1.png" alt="이gn버튼"></button>
+            </div>
+        </div>
+
+        <img src="images/background_object5.png" alt="배경 장식요소">
+    </section>
+
+
+    <section id="contact">
+        <div id="contact_bg"></div>
+
+        <div class="cen">
+            <div class="title">
+                <img src="images/main_object4.png" alt="섹션명 장식요소">
+                <h3>Contact</h3>
+            </div>
+            <div>
+                <p id="ctxt">
+                    글·이미지·영상·서비스 등의 <br class="mobilebr" />다양한 콘텐츠들을<br class="pcbr" />
+                    코드라는 형태로<br class="mobilebr" /> 엮어내어 사회에 내놓는 것,<br class="mobilebr" /><br class="pcbr" />
+                    그 내용들은 단순히 나열되기를 넘어<br class="mobilebr" /><br class="pcbr" />
+                    내보이고자 하는 바를 <br class="mobilebr" />보다 효과적으로 제시할 수 있도록 고안하고<br class="mobilebr" /><br class="pcbr" />
+                    더 멋진 문장을 구사하기 위해<br class="mobilebr" /><br class="pcbr" />
+                    끊임없이 사고하는 것이야말로 <br class="mobilebr" />개발의 의의이며<br class="pcbr" />
+                    이러한 부분은 <br class="mobilebr" />마치 책을 집필하는 것과 같다고 생각합니다.<br />
+                    <br />
+                    때로는 소설처럼 심금을 울리는<br class="mobilebr" /><br class="pcbr" />
+                    때로는 시처럼 마음을 움직이는<br class="mobilebr" /><br class="pcbr" />
+                    때로는 자기계발서처럼 <br class="mobilebr" />새로운 방향을 제시하는<br class="mobilebr" /><br class="pcbr" />
+                    그런 디자인, 그런 개발을 하며<br class="mobilebr" /><br class="pcbr" />
+                    사람들의 마음을 사로잡을<br class="mobilebr" /><br class="pcbr" />
+                    멋진 책 한권을 집필하고 싶습니다.<br />
+                    <br />
+                    제가 궁금하시다면 오른쪽을 클릭해 연락 부탁드립니다!
+                </p>
+                <div id="cbtn">
+                    <button id="resumebtn" type="button">
+                        <a href="https://github.com/jungwoo941219/resume.pdf/blob/main/%EC%9D%B4%EB%A0%A5%EC%84%9C_20221006.pdf" target="_blank">
+                            <img src="images/contact_object2.png" alt="이력서 장식요소">
+                            <address>
+                               Resume
+                            </address>
+                        </a>
+                    </button>
+                    <button id="emailbtn" type="button">
+                        <a href="ljw941219@gmail.com" target="_blank">
+                            <img src="images/contact_object1.png" alt="이메일 장식요소">
+                            <address>
+                                email <br />ljw941219@gmail.com
+                            </address>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <img src="images/footer_object1.png" alt="푸터 장식요소">
+        <img src="images/footer_object2.png" alt="푸터 장식요소">
+        <img src="images/footer_object3.png" alt="푸터 장식요소">
+        <img src="images/footer_object4.png" alt="푸터 장식요소">
+        <div class="cen">
+            <p style="white-space: nowrap; font-size: 30px; font-weight:bold; color:black;">Thanks for visiting my Website<br />- Slow but steady wins the race.</p>
+        </div>
+    </footer>
+    <script src="script/bgBtn.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

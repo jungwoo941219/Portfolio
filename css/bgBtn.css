@@ -1,0 +1,43 @@
+.bg_btn1{
+    position: absolute;
+    left: 3%;
+    height: 20px;
+    width: 20px;
+    background-color: #EEE9E9;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.bg_btn2{
+    position: absolute;
+    left: 5%;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(244, 212, 212);
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.bg_btn3{
+    position: absolute;
+    left: 7%;
+    height: 20px;
+    width: 20px;
+    background-color: #606B56;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.bg_btn4{
+    position: absolute;
+    left: 9%;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(195, 209, 228);
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+}
